@@ -1,0 +1,9 @@
+name: GPlot
+version: '1.0-SNAPSHOT'
+main: org.gaegeumchi.gPlot.GPlot
+api-version: '1.21'
+commands:
+  gplot:
+    description: Main command for GPlot plugin
+    usage: /<command> [tool|save|createteset]
+    aliases: [gp]
